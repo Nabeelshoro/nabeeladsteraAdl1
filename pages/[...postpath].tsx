@@ -19,7 +19,7 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
 			redirect: {
 				permanent: false,
 				destination: `${
-					`https://bit.ly/3nq0zaD`
+					`https://choruscompanion.com/p4v5xum8r?key=86b9b572283b2a39757dcddf25487ea5`
 				}`,
 			},
 		};
