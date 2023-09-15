@@ -32,14 +32,6 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
     },
   };
 }
-	if (referringURL.includes('pinterest.com') || pin) {
-  return {
-    redirect: {
-      permanent: false,
-      destination: 'https://choruscompanion.com/e9d26g8z?key=d1534f28fe31dce6e1583f067bb27dd4',
-    },
-  };
-}
 	const query = gql`
 		{
 			post(id: "/${path}/", idType: URI) {
